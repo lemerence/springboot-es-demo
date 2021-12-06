@@ -1,0 +1,14 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /
+
+spring:
+  data:
+    elasticsearch:
+      client:
+        reactive:
+          endpoints: 139.155.77.158:9200
+  elasticsearch:
+    rest:
+      uris: 139.155.77.158:9200
